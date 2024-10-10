@@ -13,7 +13,7 @@ import java.util.Date;
 public class ServletRequestListener implements javax.servlet.ServletRequestListener {
 
     private static final String LOG_FILE_PATH = "request_log.txt";
-//日志表位于ret
+//日志表位于tomcat/bin/request_log.txt
     @Override
     public void requestInitialized(ServletRequestEvent sre) {
         HttpServletRequest request = (HttpServletRequest) sre.getServletRequest();
